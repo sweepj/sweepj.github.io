@@ -21,7 +21,8 @@
 }
 
 .pagination__btn{
-    font-family: 'GothamPro-Bold', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: bold;
     display: inline-block;
     vertical-align: middle;
     text-decoration: none;
@@ -39,7 +40,8 @@
 
 
 .pagination__link{
-    font-family: 'GothamPro-Bold', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: bold;
     text-decoration: none;
     display: block;
     font-size: 14px;

@@ -21,7 +21,8 @@ li{
 }
 
 body{
-    font-family: 'GothamPro-Light', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: 300;
 }
 
 .wrapper{
@@ -39,11 +40,12 @@ body{
 
 .title{
     margin: 0px;
-    font-family: 'GothamPro-Bold', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: bold;
     font-size: 49px;
     height: 37px;
     line-height: 37px;
-    margin-bottom: 62px;    
+    margin-bottom: 68px;    
 }
 
 .container{

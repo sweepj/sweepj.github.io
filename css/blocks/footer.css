@@ -26,19 +26,22 @@
     text-align: left;
     margin: 10px;
     line-height: 18px;
-    font-family: 'GothamPro-Light', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: 300;
     font-size: 14px;
     height: 54px;
 }
 
 .footer__text a{
-    font-family: 'GothamPro-Bold', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: bold;
     color: white;
 }
 
 .social{
     display: inline-block;  
-    font-family: 'GothamPro-Bold', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: bold;
 }
 
 .footer__col_mid{
@@ -99,5 +102,6 @@
 }
 
 .bold-text{
-    font-family: 'GothamPro-Bold', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: bold;
 }

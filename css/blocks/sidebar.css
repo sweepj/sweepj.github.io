@@ -22,7 +22,8 @@
 
 .nav__item-link{
     text-transform: uppercase;
-    font-family: 'GothamPro-Bold', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: bold;
     font-size:12px;
     color: #ec1e79;
     text-decoration: none;

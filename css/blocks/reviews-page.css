@@ -54,7 +54,8 @@
 .reviews__name{
     font-size: 18px;
     line-height: 21px;
-    font-family: 'GothamPro-Bold', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
@@ -90,6 +91,7 @@
 }
 
 .action__text-bold{
-    font-family: 'GothamPro-Bold', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: bold;
     color: #ec1e79;
 }

@@ -19,7 +19,8 @@
 }
 
 .contacts__phone{
-    font-family: 'GothamPro-Bold', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: bold;
     color: white;
     font-size: 21px;
     text-decoration: none;
@@ -27,7 +28,8 @@
 
 .contacts__desc{
     margin-top: 5px;
-    font-family: 'GothamPro-Bold', Arial;
+    font-family: 'GothamPro', Arial;
+    font-weight: bold;
     color: #b12167;
     font-size: 14px;
     text-decoration: underline;
