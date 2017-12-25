@@ -1,0 +1,152 @@
+.content{
+    float:right;
+}
+
+.features{
+    margin-top: 61px;
+}
+
+
+.features__list{
+    padding: 0px;
+}
+
+.features__content-title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+.features__content-title{
+    font-family: 'GothamPro-Bold', Arial;
+    font-size: 10px;
+    margin-bottom: 19px;
+}
+
+.features__content-text{
+    font-family: 'GothamPro-Light', Arial;
+    line-height: 30px;
+}
+.features__icon{
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #27273e;
+    background-position: center center;
+    margin-bottom: 25px;
+}
+
+.features__icon-img{
+    padding-top:17px;
+    display:block;
+    margin: 0 auto;
+}
+
+.features__item{
+    text-align: center;
+    padding: 0px;
+    margin-left: 45px;
+    display:inline-block;
+    width: 220px;
+    height: 201px;
+}
+
+.features__content-text{
+    width: 205px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.features__content-list{
+    margin-left: 9px;
+    text-align: left;
+}
+
+.features__content-item{
+    line-height: 30px;
+    display: list-item;
+    list-style: none;
+    list-style-position: inside;
+}
+
+.features__content-item::before{
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background: #cc3366;
+    margin-right: 28px;
+}
+
+.lastnews{
+    margin-top: 75px;
+}
+
+.lastnews__list{
+    list-style: none;
+    padding:0;  
+}
+
+.lastnews__item{
+    display:block;
+}
+
+.lastnews__photo{
+    text-align: center;
+    display:block;
+    float:left;
+    overflow:hidden;
+    height: 159px;
+    width: 161px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.lastnews__item{
+    margin-bottom: 16px;    
+}
+
+.lastnews__photo-img{
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+    display:none;
+}
+
+.lastnews__text{
+    float: left;
+    width: 698px;
+    height: 176px;
+    border-bottom: solid 1px #f5f5f5;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.lastnews__data{
+    font-size: 14px;
+    color: #656464;
+    margin-bottom: 5px;
+}
+
+.lastnews__newstitle{
+    font-size: 18px;
+    font-family: 'GothamPro-Bold', Arial;
+}
+
+.lastnews__content{
+    line-height: 30px;
+    font-size:18px;
+}
+
+.lastnews__head{
+    margin-bottom: 10px;
+}
+
+.lastnews__text-latest{
+    border-bottom: none;
+}

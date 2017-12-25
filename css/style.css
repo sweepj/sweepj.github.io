@@ -1,0 +1,465 @@
+@font-face {
+    font-family: 'GothamPro-Bold';
+    src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/GothamPro-Bold.otf')  format('opentype'),
+           url('../fonts/GothamPro-Bold.woff') format('woff'), url('GothamPro-Bold.ttf')  format('truetype'), url('../fonts/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GothamPro-Light';
+    src: url('../fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/GothamPro-Light.otf')  format('opentype'),
+        url('../fonts/GothamPro-Light.woff') format('woff'), url('GothamPro-Light.ttf')  format('truetype'), url('../fonts/GothamPro-Light.svg#GothamPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GothamPro-LightItalic';
+    src: url('../fonts/GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts/GothamPro-LightItalic.otf')  format('opentype'),
+        url('../fonts/GothamPro-LightItalic.woff') format('woff'), url('GothamPro-LightItalic.ttf')  format('truetype'), url('../fonts/GothamPro-LightItalic.svg#GothamPro-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+}  
+
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'GothamPro-Light', Arial;
+}
+
+.wrapper{
+    min-height:100%;
+    height:auto!important;
+    overflow:hidden;
+    min-width: 1120px;
+}
+
+.wrapper:after{
+    content:'';
+    height: 78px;
+    display: block;
+}
+
+.footer{
+    height:78px;
+    margin-top: -78px;
+}
+
+
+.title{
+    margin: 0px;
+    font-family: 'GothamPro-Bold', Arial;
+    font-size: 49px;
+    margin-bottom: 62px;    
+}
+
+.container{
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.header{
+    background-color: #27273e;
+}
+
+.header__left,
+.header__right{
+    margin-top: 14px;
+    width: 50%;
+    float: left;
+}
+
+.header__right{
+    text-align: right;
+}
+
+.contacts{
+    font-style: normal;
+}
+
+.contacts__phone{
+    font-family: 'GothamPro-Bold', Arial;
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.contacts__desc{
+    font-family: 'GothamPro-Bold', Arial;
+    color: #b12167;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.nav{
+    display: block;
+    margin-top: 66px;
+    float: left;
+}
+
+.nav__list{
+    padding: 0px;
+}
+
+.nav__list-item{
+    margin-bottom: 32px;
+}
+
+.nav__list-icons{
+    margin-right: 20px;
+}
+
+.nav__list-link{
+    text-transform: uppercase;
+    font-family: 'GothamPro-Bold', Arial;
+    font-size:12px;
+    color: #ec1e79;
+    text-decoration: none;
+}
+
+.nav__list-link:hover{
+    color: black;
+}
+
+.active{
+    color: black;
+    text-decoration: underline #d4d4d4;
+}
+
+.content{
+    float:right;
+}
+
+.features{
+    margin-top: 61px;
+}
+
+
+.features__list{
+    padding: 0px;
+}
+
+.features__content-title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+.features__content-title{
+    font-family: 'GothamPro-Bold', Arial;
+    font-size: 10px;
+    margin-bottom: 19px;
+}
+
+.features__content-text{
+    font-family: 'GothamPro-Light', Arial;
+    line-height: 30px;
+}
+.features__icon{
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #27273e;
+    background-position: center center;
+    margin-bottom: 25px;
+}
+
+.features__icon-img{
+    padding-top:17px;
+    display:block;
+    margin: 0 auto;
+}
+
+.features__item{
+    text-align: center;
+    padding: 0px;
+    margin-left: 45px;
+    display:inline-block;
+    width: 220px;
+    height: 201px;
+}
+
+.features__content-text{
+    width: 205px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.features__content-list{
+    margin-left: 9px;
+    text-align: left;
+}
+
+.features__content-item{
+    line-height: 30px;
+    display: list-item;
+    list-style: none;
+    list-style-position: inside;
+}
+
+.features__content-item::before{
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background: #cc3366;
+    margin-right: 28px;
+}
+
+.pagination{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 69px;
+    margin-top: 41px;
+}
+
+.pagination__list{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.pagination__title{
+    color: #737272;
+    vertical-align: middle;
+    margin-right: 13px;
+    display: inline-block;
+}
+
+.pagination__btn{
+    font-family: 'GothamPro-Bold', Arial;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.pagination__btn_prev{
+    margin-right: 15px;
+    color: #bebdbd;
+}
+
+.pagination__btn_next{
+    color: #262323;
+}
+
+.pagination__link{
+    font-family: 'GothamPro-Bold', Arial;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    border-radius: 3px;
+    line-height: 25px;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    color: black;
+    transition: .4s;
+}
+
+.pagination__link:hover{
+    color: white;
+    background: #27273e;
+}
+
+.pagination__item{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+
+.lastnews{
+    margin-top: 75px;
+}
+
+.lastnews__list{
+    list-style: none;
+    padding:0;  
+}
+
+.lastnews__item{
+    display:block;
+}
+
+.lastnews__photo{
+    text-align: center;
+    display:block;
+    float:left;
+    overflow:hidden;
+    height: 159px;
+    width: 161px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.lastnews__item{
+    margin-bottom: 16px;    
+}
+
+.lastnews__photo-img{
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+    display:none;
+}
+
+.lastnews__text{
+    float: left;
+    padding-left: 180px;
+    width: 698px;
+    height: 176px;
+    border-bottom: solid 1px #f5f5f5;
+    padding: 15px;
+}
+
+.lastnews__data{
+    font-size: 14px;
+    color: #656464;
+    margin-bottom: 5px;
+}
+
+.lastnews__newstitle{
+    font-size: 18px;
+    font-family: 'GothamPro-Bold', Arial;
+}
+
+.lastnews__content{
+    line-height: 30px;
+    font-size:18px;
+}
+
+.lastnews__head{
+    margin-bottom: 10px;
+}
+
+.lastnews__text-latest{
+    border-bottom: none;
+}
+
+.footer{
+    min-width: 1120px;
+    background: #27273e;
+}
+
+.footer .container{
+    font-size: 0px;
+}
+
+.footer .container * {
+    font-size: 14px
+}
+
+.footer__col{
+    display:inline-block;
+    vertical-align: middle;       
+    width: 33.3%;
+}
+.footer__text{
+    color: white;
+    text-align: left;
+    margin: 10px;
+    line-height: 18px;
+    font-family: 'GothamPro-Light', Arial;
+    font-size: 14px;
+    height: 54px;
+}
+
+.footer__text a{
+    font-family: 'GothamPro-Bold', Arial;
+    color: white;
+}
+
+.social{
+    display: inline-block;  
+    font-family: 'GothamPro-Bold', Arial;
+}
+
+.footer__col_mid{
+    text-align: center;
+}
+
+.footer__col_last{
+    text-align: right;
+}
+
+.social{
+    text-align: left;
+}
+
+.social-title{
+    color: white;
+    margin-bottom:11px;
+    font-size:14px;
+}
+
+.social__item{
+    display: inline-block;
+    margin-right: 10px;
+}
+.social__link{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #d4d4d8;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+
+.social__link:hover{
+    background-color:#ec1e79; 
+}
+
+.social__link_vk{
+    background-image: url('../img/vk.png');
+}
+
+.social__link_fb{
+    background-image: url('../img/fb.png'); 
+}
+
+.social__link_google{
+    background-image: url('../img/google.png');
+}
+
+.social__link_tw{
+    background-image: url('../img/twitter.png');
+}
+
+.social__link_mail{
+    background-image: url('../img/mail.png');
+}
+
+.bold-text{
+    font-family: 'GothamPro-Bold', Arial;
+}

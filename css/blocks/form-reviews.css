@@ -1,0 +1,143 @@
+.form{
+    font-size: 14px;
+}
+
+input, textarea{
+    outline: none;
+}
+
+.form-textarea{
+    width: 544px;
+    height: 76px;
+    padding: 6px 9px;
+    resize: none;
+    border-radius: 3px;
+    border: solid 1.5px #ec1e79;
+}
+
+
+.form__content{
+    width: 565px;
+    margin: 50px 67px;
+    float: left;
+}
+
+.form{
+    float: left;
+    width: 700px;
+    height: 427px;    
+    background: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.form__reviews{
+    display: block;
+}
+
+.form__title{
+    font-family: 'GothamPro-Bold', Arial;
+    height: 38px;
+    line-height: 38px;
+    font-size: 48px;
+    font-weight: bold;  
+    margin: 0px;
+    margin-bottom: 26px;
+}
+
+.form__label{
+    margin-bottom: 7px;
+    display: block;
+}
+
+.form__input-name{
+    margin-right: 23px; 
+    display: inline-block;
+}
+
+.form__input-link{
+    display: inline-block;
+}
+
+.form__btn{
+    float: right;
+}
+
+.form-input{
+    padding: 0px 9px;
+    border: 0px #fff;
+    border-radius: 4px;
+    width: 250px;
+    height: 46px;
+}
+
+.form__reviews--header{
+    margin-bottom: 19px;
+}
+
+.form__reviews-text{
+    width: 565px;
+    height: 114px;
+    margin-bottom: 19px;
+}
+
+.form__btn-submit{
+    font-family: 12px;
+    font-family: 'GothamPro-Bold', Arial;
+    text-transform: uppercase;
+    border: 0px;
+    color: white;
+    border-radius: 3px;
+    background: #27273e;
+    width: 140px;
+    height: 46px;
+}
+
+.form__btn-submit:hover{
+    background: #ec1e79;
+}
+
+.form__display-checked{
+    float: left;
+    width: 50%;
+}
+
+.form__display-label{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.form__display-label:before{
+    vertical-align: middle;
+    margin-right: 6px;
+    border-radius: 50%;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #f5f5f5;
+    display: inline-block;
+    border: solid 1px gray;
+}
+
+.form__display-check:focus + .form__display-label:before{
+    border: solid 1px #ec1e79;
+}
+
+.form__display-check:checked + .form__display-label:before{  
+    padding: 6px;
+    vertical-align: middle;    
+    width: 8px;
+    height: 8px;
+    border: solid 1px #ec1e79;
+    background: url("../../img/dotradio.png") no-repeat center center;  
+}
+
+.visually-hidden{
+    position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
