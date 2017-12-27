@@ -17,13 +17,16 @@
 }
 
 .nav__item-text{
+    transition: .4s;
     display: inline-block;
 }
 
 .nav__item-icons{
+    margin-right:10px;
     display: inline-block;
     width: 24px;
     height: 16px;
+    transition: .4s;
 }
 
 .nav__item-main{
@@ -72,8 +75,33 @@
 }
 
 
-.nav__link-active {
+.nav__link-active + .nav__item-star{
     background: url("../../img/feed_icon_active.png") 0 0 no-repeat;
+    width: 24px;
+    height: 18px;
+}
+
+
+.nav__link-active + .nav__item-main{
+    background: url("../../img/main_icon_active.png") 0 0 no-repeat;
+    width: 24px;
+    height: 18px;
+}
+
+.nav__active-purse{
+    background: url("../../img/wallet_icon_active.png") 0 0 no-repeat;
+    width: 24px;
+    height: 18px;
+}
+
+.nav__active-star{
+    background: url("../../img/feed_icon_active.png") 0 0 no-repeat;
+    width: 24px;
+    height: 18px;
+}
+
+.nav__active-main{
+    background: url("../../img/main_icon_active.png") 0 0 no-repeat;
     width: 24px;
     height: 18px;
 }
