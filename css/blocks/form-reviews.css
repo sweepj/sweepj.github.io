@@ -2,19 +2,20 @@
     font-size: 14px;
 }
 
-input, textarea{
-    outline: none;
-}
 
 .form-textarea{
+    outline: none;
     width: 544px;
     height: 76px;
     padding: 6px 9px;
     resize: none;
     border-radius: 3px;
-    border: solid 1.5px #ec1e79;
+    border: solid 1px gray;
 }
 
+.form-textarea:focus{
+    border: solid 1px #ec1e79;
+}
 
 .form__content{
     width: 565px;
@@ -64,11 +65,16 @@ input, textarea{
 }
 
 .form-input{
+    outline: none;
     padding: 0px 9px;
-    border: 0px #fff;
+    border: 1px gray;
     border-radius: 4px;
-    width: 250px;
+    width: 248px;
     height: 46px;
+}
+
+.form-input:focus{
+    border: 1px solid #ec1e79;
 }
 
 .form__reviews--header{

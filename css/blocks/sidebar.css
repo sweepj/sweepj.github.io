@@ -16,9 +16,51 @@
     margin-bottom: 32px;
 }
 
-.nav__item-icons{
-    margin-right: 20px;
+.nav__item-text{
+    display: inline-block;
 }
+
+.nav__item-icons{
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+}
+
+.nav__item-main{
+    background: url("../../img/main_icon.png") 0 0 no-repeat;
+    width: 24px;
+    height: 16px;
+}
+
+.nav__item-star{
+    background: url("../../img/feed_icon.png") 0 0 no-repeat;
+    width: 24px;
+    height: 18px;
+}
+
+.nav__item-purse{
+    width: 24px;
+    height: 16px;
+    background: url("../../img/wallet_icon.png") 0 0 no-repeat;
+} 
+
+.nav__item-link:hover .nav__item-main{
+    background: url("../../img/main_icon_active.png") 0 0 no-repeat;
+    width: 24px;
+    height: 16px;
+}
+
+.nav__item-link:hover .nav__item-star{
+    background: url("../../img/feed_icon_active.png") 0 0 no-repeat;
+    width: 24px;
+    height: 18px;
+}
+
+.nav__item-link:hover .nav__item-purse{
+    width: 24px;
+    height: 16px;
+    background: url("../../img/wallet_icon_active.png") 0 0 no-repeat;
+} 
 
 .nav__item-link{
     text-transform: uppercase;
@@ -29,11 +71,17 @@
     text-decoration: none;
 }
 
-.nav__item-link:hover{
+
+.nav__link-active {
+    background: url("../../img/feed_icon_active.png") 0 0 no-repeat;
+    width: 24px;
+    height: 18px;
+}
+
+.nav__link-active + .nav__item-text{
     color: black;
 }
 
-.active{
+.nav__item-link:hover .nav__item-text{
     color: black;
-    text-decoration: underline #d4d4d4;
 }

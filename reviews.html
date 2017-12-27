@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Отзывы</title>
     <link rel="stylesheet" href="css/layout/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -183,8 +184,8 @@
                                     </div>
                                 </div>
                                 <div class="form__reviews-text">
-                                    <label class="form__label">Текст отзыва</label>
-                                    <textarea name="review" class="form-textarea" cols="30" rows="10">Мне понравилось</textarea>
+                                    <label for="form_textarea" class="form__label">Текст отзыва</label>
+                                    <textarea id="form_textarea" name="review" class="form-textarea" cols="30" rows="10" placeholder="Мне понравилось"></textarea>
                                 </div>
                                 <div class="form__footer clearfix">
                                     <div class="form__display-checked">
@@ -208,17 +209,22 @@
                         <ul class="nav__list">
                             <li class="nav__item">
                                 <a href="index.html" class="nav__item-link">
-                                    <img src="img/main_icon.png" alt="icon" class="nav__item-icons"> главная
+                                    <div class="nav__item-icons nav__item-main">
+                                    </div>
+                                    <div class="nav__item-text">главная</div>
                                 </a>
                             </li>
                             <li class="nav__item">
                                 <a href="#" class="nav__item-link active">
-                                    <img src="img/feed_icon_active.png" alt="icon" class="nav__item-icons"> отзывы
+                                    <div class="nav__item-icons nav__item-star nav__link-active"></div>
+                                    <div class="nav__item-text">отзывы
+                                    </div>
                                 </a>
                             </li>
                             <li class="nav__item">
                                 <a href="#" class="nav__item-link">
-                                    <img src="img/wallet_icon.png" alt="icon" class="nav__item-icons"> тарифы
+                                    <div class="nav__item-icons nav__item-purse"></div>
+                                    <div class="nav__item-text">тарифы</div>
                                 </a>
                             </li>
                         </ul>
